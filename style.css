@@ -52,6 +52,7 @@ body{
 }
 .countdown div{
     position: relative;
+    width: 90%;
 }
 #day, #hour, #minute, #second {
     height: 75%;
