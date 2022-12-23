@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600');
 *{
     margin: 0;
@@ -34,11 +35,14 @@ body{
     color: #333;
     margin-top: -80px;
     margin-bottom: 25px;
+    
+
 }
 .container h2 span{
     display: block;
     font-weight: 300;
     letter-spacing: 10px;
+    font-family: 'Prosto One', cursive;
    
 }
 
@@ -115,7 +119,6 @@ to{background-position: 100% 100%;}
 
 @media screen  and (max-width: 1024px) {
     .container h2 span{
-        color: red;
         font-size: 1.5rem;
     }
     .hea{
@@ -123,12 +126,10 @@ to{background-position: 100% 100%;}
     }
     #day, #hour, #minute, #second {
     width: 90px;
-    /* text-align: center; */
     background-color: red;
     margin: 0 15px;
     font-size: 2.5em;
     padding-top: 8px;
-    /* font-weight: 500; */
     height: 70px;
     }
     .countdown div::before{
@@ -143,7 +144,6 @@ to{background-position: 100% 100%;}
 
 @media screen  and (max-width: 600px) {
     .container h2 span{
-        color: red;
         font-size: 1rem;
     }
     .hea{
@@ -151,7 +151,7 @@ to{background-position: 100% 100%;}
     }
     #day, #hour, #minute, #second {
     width: 60px;
-    background-color: green;
+    background-color: red;
     margin: 0 10px;
     font-size: 2em;
     padding-top: 5  px;
